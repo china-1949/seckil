@@ -32,7 +32,7 @@ public class LoginApiControllerTest {
 	}
 	@Test
 	public void contextLoads() throws Exception{
-		MvcResult result = mockMvc.perform(post("/api/login").param("username", "chensong").param("password", "123456")
+		MvcResult result = mockMvc.perform(post("/api/login").param("username", "pdd").param("password", "123456")
 				.contentType(MediaType.APPLICATION_JSON)) //指定返回json格式
 				.andExpect(status().isOk()) //是否成功返回
 				.andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8)) //检验返回是否为json格式的

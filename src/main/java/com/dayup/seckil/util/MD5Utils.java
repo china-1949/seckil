@@ -9,12 +9,12 @@ public class MD5Utils {
 		return DigestUtils.md5Hex(str);
 		
 	}
-	//第一次加密
+	//第一次加密  salt springboot
 	public static String inputToBack(String Str){
 		return md5(Str+salt);
 	}
 	
-	//第二次加密
+	//第二次加密  salt   dbSalt
 	public static String backToDb(String str,String dbSalt){
 		return md5(str+dbSalt);
 		
