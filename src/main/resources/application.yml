@@ -7,7 +7,7 @@ spring:
   database: 0
   host: 127.0.0.1
   port: 6379 
-  pool:
+  pool:  # redsi 连接池
     max-active: 8
     max-wait: 1
     max-idle: 8

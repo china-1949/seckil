@@ -14,7 +14,7 @@ import org.springframework.data.redis.core.ZSetOperations;
 import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
-//注入工厂类
+//注入工厂类（redsi的5种类型）
 @Configuration
 @EnableAutoConfiguration 
 public class RedisConfig {

@@ -38,7 +38,7 @@ public abstract class BaseRedis<T> {
 
 	/**
 	 * 递增操作
-	 * 
+	 * isToString 多少秒失效
 	 * @param key
 	 * @param by
 	 * @return

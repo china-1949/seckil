@@ -88,7 +88,7 @@ public class LoginController {
 				cookie.setPath("/");
 				response.addCookie(cookie);
 				
-				return "redirect:home";
+				return "redirect:/home";
 			}else{
 				return "login";
 			}

@@ -49,9 +49,16 @@ public class UserServiceTest {
 	}
 	
 	@Test
-	public void testPutRedis(){
+	public void testPutRedis(){  //基于hash进行处理的
 		User user =new User("cs2","123456"); 
 		userRedis.put(user.getUsername(),user , -1);
+	}
+
+	@Test
+	public void testGetRedis(){  //基于hash进行处理的
+
+		User cs2 = userRedis.get("cs2");
+		System.out.println(cs2);
 	}
 	
 }

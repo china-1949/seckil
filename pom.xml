@@ -76,7 +76,7 @@
 		    <artifactId>fastjson</artifactId>
 		    <version>1.2.47</version>
 		</dependency>
-		<!--热部署的session保存问题  -->
+		<!--  reis问题 java.lang.ClassCastException -->
 		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
